@@ -41,17 +41,26 @@ syntax on
 "http://www.vim.org/scripts/script.php?script_id=4667
 colorscheme monokai
 
+"set background=light
+"colorscheme solarized
 
 set autoindent
+
 "set no backup files
 set nobackup
+
 "disable toolbar, scrollbar, menumbar
 set guioptions-=m  "menu bar
 set guioptions-=T  "toolbar
 set guioptions-=r  "scrollbar
+
 "set the window to the maximum
 set lines=999 columns=999
 
 "http://stackoverflow.com/a/3317009/2794152
 set guifont=Consolas:h13
+"set guifont=Monospaces:h13
 
+"set no undo files:
+"http://stackoverflow.com/questions/15660669/what-is-a-un-file-or-or-why-does-vim-in-the-terminal-make-the-un-file
+:set noundofile
