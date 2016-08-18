@@ -14,6 +14,13 @@ call pathogen#infect()
 call pathogen#helptags()
 filetype indent plugin on
 
+"for vimwiki
+set nocompatible
+filetype plugin plugin on
+let g:vimwiki_list = [{'path': '/home/luming/Documents/vimwiki'}]
+let g:vimwik_hl_hearder = 1 "Highlight headers with different colors
+
+
 "set code indent lines
 "https://github.com/Yggdroot/indentLine
 let g:indentLine_enabled = 1
